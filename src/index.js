@@ -8,6 +8,7 @@ import {getArch} from "./os/arch.js";
 import {getUsername} from "./os/username.js";
 import {getHomedir} from "./os/homedir.js";
 import {getCpus} from "./os/cpus.js";
+import {getLs} from "./ls.js";
 
 let userName = '';
 
@@ -45,6 +46,8 @@ rl.on('line', (input) => {
             case 'up':
                 getUp();
                 break;
+            case 'ls':
+                return getLs();
             case 'os --EOL':
                 getOEL();
                 break;
@@ -62,11 +65,11 @@ rl.on('line', (input) => {
                 break;
             default:
                 console.log('Invalid input');
+                console.log(`You are currently in ${process.cwd()}`);
         }
     } catch {
+        console.log(`You are currently in ${process.cwd()}`);
         throw new Error('Operation failed')
     }
 });
-
-
 

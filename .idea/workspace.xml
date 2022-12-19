@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed2c92d-3460-4259-a7cc-ea48bc29c9f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/os/arch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os/cpus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os/eol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os/homedir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/os/username.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <workItem from="1670678485314" duration="1797000" />
       <workItem from="1670841840218" duration="1167000" />
       <workItem from="1670876771607" duration="12121000" />
-      <workItem from="1671183923709" duration="54514000" />
+      <workItem from="1671183923709" duration="64296000" />
     </task>
     <servers />
   </component>
