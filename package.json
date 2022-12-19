@@ -1,0 +1,20 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaaaaaaaails/file-manager.git"
+  },
+  "author": "mmaaaaaaaails",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaaaaaaaails/file-manager/issues"
+  },
+  "homepage": "https://github.com/mmaaaaaaaails/file-manager#readme"
+}
